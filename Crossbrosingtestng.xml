@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test  name="Chrome">
+	  <parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="testcases.Tc_001_ValidateAccountRegestration"/>
+    </classes>
+  </test> <!-- Test -->
+   <test  name="Edge">
+	  <parameter name="Browser" value="Edge"></parameter>
+    <classes>
+      <class name="testcases.Tc_001_ValidateAccountRegestration"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

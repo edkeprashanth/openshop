@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-08T10:56:41 IST" name="Suite" finished-at="2024-06-08T10:56:45 IST" duration-ms="4499">
+    <groups>
+      <group name="Master">
+        <method signature="Tc_002_ValidateloginFunctionality.validatelogin()[pri:0, instance:testcases.Tc_002_ValidateloginFunctionality@35cabb2a]" name="validatelogin" class="testcases.Tc_002_ValidateloginFunctionality"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="Tc_002_ValidateloginFunctionality.validatelogin()[pri:0, instance:testcases.Tc_002_ValidateloginFunctionality@35cabb2a]" name="validatelogin" class="testcases.Tc_002_ValidateloginFunctionality"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2024-06-08T10:56:41 IST" name="Test" finished-at="2024-06-08T10:56:45 IST" duration-ms="4499">
+      <class name="testcases.Tc_002_ValidateloginFunctionality">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.Tc_002_ValidateloginFunctionality@35cabb2a]" started-at="2024-06-08T10:56:41 IST" name="setup" finished-at="2024-06-08T10:56:44 IST" duration-ms="2880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatelogin()[pri:0, instance:testcases.Tc_002_ValidateloginFunctionality@35cabb2a]" started-at="2024-06-08T10:56:44 IST" name="validatelogin" finished-at="2024-06-08T10:56:45 IST" duration-ms="1178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:testcases.Tc_002_ValidateloginFunctionality@35cabb2a]" started-at="2024-06-08T10:56:45 IST" name="tear" finished-at="2024-06-08T10:56:45 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testcases.Tc_002_ValidateloginFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
