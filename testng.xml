@@ -8,7 +8,7 @@
 	  <parameter name="Browser" value="Chrome"></parameter>
 
     <classes>
-     
+     <class name="testcases.Tc_001_ValidateAccountRegestration"/>
     
 <class name="testcases.Tc_002_ValidateloginFunctionality"/>
     </classes>

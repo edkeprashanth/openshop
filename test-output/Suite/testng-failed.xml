@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="Browser" value="Chrome"/>
     <classes>
-      <class name="testcases.Tc_003_validateLogintest_bydatadriven">
+      <class name="testcases.Tc_001_ValidateAccountRegestration">
         <methods>
           <include name="setup"/>
           <include name="tear"/>
-          <include name="validateLogintest_bydatadriven" invocation-numbers="0 1 2 3 4"/>
+          <include name="vaildate_AccountCreation"/>
         </methods>
-      </class> <!-- testcases.Tc_003_validateLogintest_bydatadriven -->
+      </class> <!-- testcases.Tc_001_ValidateAccountRegestration -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
